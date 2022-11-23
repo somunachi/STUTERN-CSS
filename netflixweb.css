@@ -44,7 +44,7 @@ body {
     align-items: center;
 }
 
-.banner :before {
+/* .banner :before {
     content: "" ;
     position: absolute;
     top: 0;
@@ -64,7 +64,21 @@ body {
     height: 400px;
     z-index: 1;
     background: linear-gradient(to top black transparent);
-}
+} */
+
+.hero__bg__overlay {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 80vh;
+    background: rgba(0, 0, 0, 0.4);
+    background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.8) 0,
+      rgba(0, 0, 0, 0) 60%,
+      rgba(0, 0, 0, 0.8) 100%
+    );
+  }
 
 .banner .fit {
     width: 100%;
@@ -193,9 +207,11 @@ font-size: 1.6rem;
     color: white;
     padding-top: 2rem;
     padding-right: 30rem;
-    padding-left: 2rem;
+    padding-left: 10px;
     padding-bottom: 2rem;
     border-bottom: 0.6rem solid #111;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
 }
 
 .part3 .talk h1{
@@ -208,9 +224,9 @@ font-size: 1.6rem;
 font-size: 1.6rem;
 }
 
-.part3 .talk {
+/* .part3 .talk {
     width: 35rem;
-}
+} */
 
 
 .part4 {
@@ -293,30 +309,63 @@ font-size: 1.6rem;
 .item:target .text {
     opacity: 1;
     height: auto;
-    padding: 20px 30px;
+    padding: 20px 35px;
     margin: 0;
     border-top: 2px solid #000;
     margin-bottom: 6px;
 }
 
-.box .heading p {
+.item:target .icon::after{
+    transform:rotateY(90deg)
+}
+
+.banner2 {
+    border-bottom: 0.6rem solid #111;
+}
+
+.banner2 .box{
+    margin: 4rem 0;
+}
+
+
+.banner2 .box .heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.banner2 .box .heading h2 {
+    font-size: 3.125rem;
+    color: #fff;
+    letter-spacing: 2px;
+    width: 80%;
+}
+
+.banner2 .box .heading h5 {
+font-size: 1.625rem;
+color: #fff;
+font-weight: 400;
+padding: 1rem 0;
+}
+
+.banner2 .box .heading p {
     font-size: 1.2rem;
     color: #fff;
     font-weight: 500;
     padding: 15px 0;
     padding-bottom: 20px;
-    align-items: center;
-    justify-content: center;
 }
 
-.box .search {
+.banner2 .box .search {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 
-.box .search input{
+.banner2 .box .search input{
     font-size: 16px;
     border: 1px solid #8c8c8c;
     outline: none;
@@ -328,7 +377,7 @@ font-size: 1.6rem;
     align-items: center;
 }
 
-.box .search a{
+.banner2 .box .search a{
 text-decoration: none;
 text-transform: uppercase;
 color: #fff;
@@ -341,4 +390,46 @@ font-size: 1.625rem;
 line-height: 60px;
 min-width: 310px;
 padding: 0 30px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin: auto;
+    padding: 4rem 0;
+}
+
+.questions{
+    margin-top: 10rem;
+    margin-left: 10rem;
+    text-decoration: none;
+    color: rgb(164, 162, 162);
+
+}
+
+.footer .one {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin: auto;
+    width: 25%;
+}
+
+.footer .one li {
+    padding: 7px 0;
+}
+
+
+.footer .one li a {
+color: rgb(164, 162, 162);
+text-decoration: none;
+}
+
+.footer .one li a:hover {
+    border-bottom: 1px solid rgb(164, 162, 162);
+}
+
+#questions a:hover {
+    border-bottom: 1px solid rgb(164, 162, 162);
 }
