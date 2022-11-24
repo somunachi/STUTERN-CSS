@@ -6,46 +6,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
-    <link rel="stylesheet" href="netflixweb.css">
+    <link rel="stylesheet" href="web-clone-project.css">
 
 </head>
 <body>
     <section class="container">
         <div class="head">
-            <img src="netflixassets\netflix-logo-png-2562-removebg-preview.png" alt="netflixlogo" class="netflixlogo">
+            <img src="web-clone-assets\netflix-logo-png-2562-removebg-preview.png" alt="netflixlogo" class="netflixlogo">
             <a href="#">Sign Up</a>
         </div>
     </section>
 
-    <div class="hero__bg__overlay"></div>
+    <div id="overlay"></div>
 
-    <section class="banner">
-        <img src="netflixassets\background.jpg" alt="netflixbackground" class="fit">
+    <section class="banner" id="banner">
+        <img src="web-clone-assets\background.jpg" alt="netflixbackground" class="fit">
         <div class="box">
-            <div class="heading">
+            <div class="heading" id="heading">
                 <h2>Unlimited movies, TV shows, and more.</h2>
                 <h5>Watch anywhere. Cancel anytime.</h5>
                 <p>Ready to watch? Enter your email to create or restart your membership.</p>
             </div>
-            <div class="search">
+            <div class="search" id="search">
                 <input type="text" placeholder="Email address">
                 <a href="#">Get Started ></a>
             </div>
         </div>
     </section>
+    
     <section class="part1">
         <div class="talk">
             <h1>Enjoy on your TV.</h1>
             <p>Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</p>
         </div>
         <div class="image">
-            <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" alt="">
+            <span>
+                <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" alt="" class="img">
+                <video src="web-clone-assets\Netflix Cameroon - Watch TV Shows Online, Watch Movies Online.m4v" class="vid" autoplay playsinline muted loop></video>
+            </span>
+            
         </div>
     </section>
 
     <section class="part2">
         <div class="image">
             <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg" alt="">
+            <!-- <div class="card-animation">
+                <div> <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/boxshot.png" alt="" class="card-animation-image"></div>
+                <div class="strangerthings">Stranger Things</div>
+                <div class="downloading">Downloading...</div>
+            </div> -->
         </div>
         <div class="talk">
             <h1>Download your shows to watch offline.</h1>
