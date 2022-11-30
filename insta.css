@@ -1,0 +1,360 @@
+* {
+   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; 
+   
+}
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100vw;
+}
+
+nav{
+    width:18vw;
+    height:100%;
+    border: 1px solid rgb(223, 217, 217);
+    margin-top: -10px;
+    margin-left: -10px;
+    padding-top: 0;
+    position: fixed;
+
+}
+
+.insta-logo {
+    width: 120px;
+    height: 90px;
+    margin-left: 1.2rem;
+    margin-bottom: 1rem;
+
+}
+
+.insta-icons {
+    margin-left: 1.2rem;
+}
+
+h3 {
+    font-weight: 400;
+    margin-top: -3px;
+    padding-top: 3px;
+
+}
+
+.nav-profile {
+    border: 1px solid transparent;
+    border-radius: 50%;
+    margin-top: -8px;
+    margin-right: 10px;
+    margin-left: -3px;
+}
+
+.nav-icon {
+    display: flex;
+    font-size: 14px;
+    line-height: 18px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+    margin-bottom: 2rem;
+}
+
+.bi {
+    font-size: 24px;
+    margin-right: 12px;
+
+}
+
+.nav-more{
+    margin-top: 4rem;
+}
+
+.middle{
+    width: 60vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin-left: 24rem;
+    margin-right: 1rem;
+
+}
+
+header {
+    display: flex;
+    width: 58%;
+    border: 1px solid rgb(223, 217, 217);
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+    justify-content: space-evenly;
+
+}
+
+.gradient-box {
+    border-width: 6px;
+    border-style: solid;
+    border-color: transparent;
+}
+
+.header-img {
+    width: 50px;
+    height: 50px;
+    margin-top:10px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    background: linear-gradient(white, white)padding-box, linear-gradient(to right (red, yellow, purple))border-box;
+   
+}
+
+
+.header-img1{
+    margin-left: 10px;
+}
+
+.header-username{
+  margin-left: 17px;
+}
+
+.updates {
+    width: 58.5%;
+    height: 1200px;
+    border: 1px solid rgb(223, 217, 217);
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.profile-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile-image{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 10px;
+    margin-top: 2px;
+}
+
+.profile-name {
+    display: flex;
+    flex-direction: column;
+    padding-top: 12px;
+    padding-left: 2px;
+}
+
+.user-name{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: #262626;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 3px;
+}
+
+.user-location {
+    color: #262626;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.three-dots {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: -10px;
+}
+
+.bi-three-dots {
+    font-size: 18px;
+    margin-left: 19rem;
+}
+
+.feed-icons {
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+}
+
+.like-send-comment{
+    display: flex;
+    justify-content:baseline;
+}
+
+.send {
+    font-weight: 200;
+    padding-top: 6px;
+
+}
+
+.comment{
+    margin-right: 18px;
+}
+
+.like {
+    padding-top: 2px;
+    margin-left: 10px;
+    margin-right: 18px;
+}
+
+.feed-followers {
+    display: flex;
+}
+
+.followers {
+    position: absolute;
+    width:400px;
+    height: 100vh;
+    
+    margin-left: 56rem;
+    margin-top: 3.5rem;
+    margin-right: 0;
+    padding-right: 0;
+    /* border: 1px solid black; */
+}
+
+.personal-profile-info {
+    display: flex;
+}
+
+/* .profile-info {
+    margin-left: ;
+} */
+
+.profile-name{
+    padding-left: 1rem;
+    line-height: 14px;
+    margin-top: 5px;
+}
+
+.followers-username{
+    color: #8e8e8e;
+    font-size: 14;
+    font-weight: 400;
+}
+
+.blue {
+    margin-left: 6rem;
+    margin-top: 1.6rem;
+}
+
+.blue-text {
+    text-decoration: none;
+    color: #2d90d3;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.suggestions-div {
+    margin-top: 30rem;
+    padding-top: 20rem;
+    
+}
+
+.suggestions {
+    display: flex;
+    margin-left: -10px;
+    line-height: 2px;
+}
+
+.suggestions1 {
+    margin-left: 0.5px;
+}
+
+.suggestions2 {
+    margin-top: -12px;
+}
+
+.grey {
+    font-size: 14px;
+    font-weight: 600;
+    color: #8e8e8e;
+}
+
+.see-all {
+    font-size: 12px;
+    color: #262626;
+    font-weight: 600;
+    text-decoration: none;
+    margin-left: 6.7rem;
+    margin-top: 1.6rem;
+
+}
+
+.blue-text1{
+    margin-left: 6rem;
+    margin-top: 1.6rem;   
+}
+
+.grey-small {
+    color: #8e8e8e;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.footer {
+    margin-top: 20px;
+}
+
+.footer-link {
+    color: #c7c7c7;
+    font-size: 12px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.post-like {
+    margin-left: 10px;
+    color: #262626;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.post-comment {
+    margin-left: 10px;
+    color: #8e8e8e;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.post-comment1{
+    display: flex;
+    justify-content: space-between;
+    line-height: 3px;
+}
+
+.like-comment {
+    font-size: 12px;
+}
+
+.time {
+    color: #8e8e8e;
+    font-size: 10px;
+    font-weight: 400;
+    margin-left: 6px;
+}
+
+.bi-emoji-smile {
+    font-size: 24px;
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+textarea{
+    font-size: 14px;
+    font-family: 400;
+    color: #6d6b6b;
+    border: transparent;
+    margin-top: 5px;
+}
+
+.post-text {
+    margin-left: 11rem;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+hr {
+   opacity: 0.5;
+}
