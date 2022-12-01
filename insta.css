@@ -1,5 +1,6 @@
 * {
    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; 
+   box-sizing: border-box;
    
 }
 
@@ -22,11 +23,12 @@ nav{
 
 }
 
-.insta-logo {
+.insta-logo-font {
     width: 120px;
     height: 90px;
-    margin-left: 1.2rem;
     margin-bottom: 1rem;
+    margin-left: 5px;
+   
 
 }
 
@@ -46,7 +48,7 @@ h3 {
     border-radius: 50%;
     margin-top: -8px;
     margin-right: 10px;
-    margin-left: -3px;
+    margin-left: -2px;
 }
 
 .nav-icon {
@@ -65,8 +67,13 @@ h3 {
 
 }
 
+.bi-house-door-fill {
+    margin-left: -3px;
+}
+
 .nav-more{
     margin-top: 4rem;
+    margin-left: -4px;
 }
 
 .middle{
@@ -87,29 +94,38 @@ header {
     margin-bottom: 1.5rem;
     margin-top: 1rem;
     justify-content: space-evenly;
-
-}
-
-.gradient-box {
-    border-width: 6px;
-    border-style: solid;
-    border-color: transparent;
-}
-
-.header-img {
-    width: 50px;
-    height: 50px;
-    margin-top:10px;
-    border-radius: 50%;
-    border: 2px solid transparent;
-    background: linear-gradient(white, white)padding-box, linear-gradient(to right (red, yellow, purple))border-box;
-   
+    flex-grow: 1;
 }
 
 
 .header-img1{
     margin-left: 10px;
 }
+
+.imgWrapper img {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+  }
+  
+  .imgWrapper {
+
+    padding-top: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-bottom: 4px;
+    background-image: url('border.png');
+    background-size: cover;
+    background-position: center;
+  }
+
+  .gradient-box {
+    margin-top: 10px;
+  }
 
 .header-username{
   margin-left: 17px;
@@ -126,11 +142,12 @@ header {
 .profile-details {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .profile-image{
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
     padding: 10px;
     margin-top: 2px;
@@ -139,7 +156,7 @@ header {
 .profile-name {
     display: flex;
     flex-direction: column;
-    padding-top: 12px;
+    margin-top: -3px;
     padding-left: 2px;
 }
 
@@ -202,6 +219,10 @@ header {
     display: flex;
 }
 
+.feed-image {
+    margin-top: 5px;
+}
+
 .followers {
     position: absolute;
     width:400px;
@@ -223,7 +244,7 @@ header {
 } */
 
 .profile-name{
-    padding-left: 1rem;
+    padding-left: 5px;
     line-height: 14px;
     margin-top: 5px;
 }
@@ -263,7 +284,7 @@ header {
 }
 
 .suggestions2 {
-    margin-top: -12px;
+    margin-top: -10px;
 }
 
 .grey {
@@ -277,13 +298,13 @@ header {
     color: #262626;
     font-weight: 600;
     text-decoration: none;
-    margin-left: 6.7rem;
+    margin-left: 7rem;
     margin-top: 1.6rem;
 
 }
 
 .blue-text1{
-    margin-left: 6rem;
+    margin-left: 7rem;
     margin-top: 1.6rem;   
 }
 
@@ -357,4 +378,19 @@ textarea{
 
 hr {
    opacity: 0.5;
+}
+
+.profile-name2{
+    margin-top: 20px;
+}
+
+.user-name2{
+    margin-top: 10px;
+}
+
+.header-img2 {
+    width: 50px;
+    height: 50px;
+    margin-top:10px;
+    border-radius: 50%; 
 }
